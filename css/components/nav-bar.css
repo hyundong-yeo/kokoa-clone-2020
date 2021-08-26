@@ -1,10 +1,13 @@
 .nav {
   position: fixed;
   bottom: 0;
+  /* 스크롤을 해도 아래에 고정으로 붙이려면 position, bottom을 쓰면 됨 */
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
+  /*  box size를 늘리는것을 원치않는다는 의미 
+      보통 패딩에 의해 늘어날 수 있는 박스 크기를 패딩과 관련없이 고정시킬 수 있음 */
   border-top: 1px solid rgba(121, 121, 121, 0.2);
 }
 
@@ -14,5 +17,35 @@
 }
 
 .nav__link {
+  position: relative;
+  /* 이게 없으면 nav__notification이 body를 기준으로 포지션 이동을 한다. */
   color: #2e363e;
+}
+
+.nav__notification1 {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__notification2 {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
 }
