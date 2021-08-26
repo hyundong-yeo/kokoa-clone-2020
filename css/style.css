@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "variables.css";
-@import "root.css";
 @import "reset.css";
+@import "root.css";
+@import "variables.css";
 /* reset css는 css에 대한 초기 설정값으로 정해진게 없으면 보통 하는 설정이라고 하면 되겠다. */
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
