@@ -20,4 +20,8 @@ body {
   height: 1000vh;
 }
 
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
 /* 보통 먼저 코드를 작성하고 그 이후에 코드를 파일별로 정리를 한다. */
