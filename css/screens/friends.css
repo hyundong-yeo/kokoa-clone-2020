@@ -8,13 +8,14 @@
   display: block;
   background-color: #fafafa;
   padding: 15px 30px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* #friends-display-link i {
-  margin: 0px 10px 0px 10px;
-} */
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
